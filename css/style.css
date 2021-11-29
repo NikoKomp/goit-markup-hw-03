@@ -1,0 +1,132 @@
+:root {
+  --brand-color: #2f303a;
+  --button-color: #2196f3;
+  --text-primary: #212121;
+  --sup-head-color: #ffffff;
+  --text-secondary-color: #757575;
+  --secondar-button-color: #f5f4fa;
+  --primary-fonts: Roboto;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main-conteiner {
+  width: 1600;
+}
+.link {
+  color: var(--text-secondary-color);
+}
+.link:hover {
+  color: var(--button-color);
+}
+.link:focus {
+  color: var(--button-color);
+}
+body {
+  background-color: #e5e5e5;
+  font-family: var(--primary-fonts), sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03;
+  color: var(--text-primary);
+}
+
+.logo-image {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--button-color);
+}
+.logo-im-part2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--text-primary);
+}
+.nav-link {
+  color: var(--text-primary);
+  font-weight: 500;
+  line-height: 16px;
+}
+.nav-link:hover {
+  color: var(--button-color);
+}
+.nav-link:focus {
+  color: var(--button-color);
+}
+.hero-box {
+  background: var(--brand-color);
+}
+.sup-header {
+  color: var(--sup-head-color);
+  font-weight: 900;
+}
+.button-first {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: var(--button-color);
+}
+.button-first-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: var(--sup-head-color);
+}
+.adv-text {
+  color: var(--text-secondary-color);
+}
+.t-position {
+  color: var(--text-secondary-color);
+}
+.button-second {
+  cursor: pointer;
+  background-color: var(--button-color);
+  width: 73px;
+  height: 38px;
+}
+.button-second-text {
+  font-weight: 500;
+  color: var(--sup-head-color);
+}
+.button-third {
+  cursor: pointer;
+  width: 145px;
+  height: 38px;
+}
+.img-doing {
+  width: 370px;
+}
+.t-photo {
+  width: 270px;
+}
+.cards {
+  width: 370px;
+  height: 294px;
+}
+.contact-section {
+  background-color: var(--brand-color);
+}
+.map-link:hover {
+  color: var(--button-color);
+}
+.map-link:focus {
+  color: var(--button-color);
+}
+.map-link {
+  color: var(--sup-head-color);
+}
+.logo-im-part3 {
+  color: var(--sup-head-color);
+}
+.addres-container {
+  font-style: normal;
+}
