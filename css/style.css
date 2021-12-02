@@ -83,8 +83,15 @@ body {
 }
 .hero-box {
   background: var(--brand-color);
+  width: 1600px;
+  height: 600px;
+  text-align: center;
+  margin-bottom: 94px;
 }
 .sup-header {
+  margin: 0%;
+  padding: 200px 452px 40px 452px;
+
   color: var(--sup-head-color);
   font-weight: 900;
   font-size: 44px;
@@ -104,6 +111,9 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+}
+.adv-list{
+ 
 }
 .t-position {
   color: var(--text-secondary-color);
