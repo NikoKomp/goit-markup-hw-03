@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <header class="container nl">
+    <header >
+        <div class="container navigation-list">
             <nav class="logo">
                 <a href="" class="logo-image" target="blink">Web<span class="logo-im-part2">Studio</span> </a>
                 <ul class="nav-links-item">
@@ -32,18 +33,26 @@
                         info@devstudio.com</a></li>
                 <li class="contacts"><a href="tel=+380961111111" class="link"> +380961111111 </a></li>
             </ul>
+            </div>
     </header>
     <main>
-        <section class="container hero">
- <!-- slogan -->
-            <div class="hero-box">
+
+
+
+        <!-- slogan -->
+        <section class="section slogan-sec">
+            <div class="container hero">
             <h1 class="sup-header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ 
 ДЛЯ ВАШЕГО БИЗНЕСА </h1>
-            <button type="button" class="button-first">Заказать услугу</button>
+            <button disabled type="button" class="button-first">Заказать услугу</button>
             </div>
         </section>
+
+
+
 <!-- Our advantage -->
-        <section class="container adv">
+        <section class="section advantage-sec">
+            <div class="container advantage">
             <h2 hidden>Наши преимущества</h2>
             <ul class="tegs">
                 <li class="item1"><h3 class="adv-head">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -59,39 +68,54 @@
                     <p class=t-position>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
+
+
+
 <!--what we doing-->
-        <section class="container do">
+        <section class="section what-we-dooing" >
+            <div class="container do">
             <h2 class="doing"> Чем мы занимаемся</h2>
             <ul class="d-list">
                 <li class="d-text"><img src="image/img.jpg" class="img-doing" alt="создание верстки"></li>
                 <li class="d-text"><img src="image/img1.jpg"  class="img-doing" alt="разработка мобильных приложений"></li>
                 <li class="d-text"><img src="image/img2.jpg"  class="img-doing" alt="веб дизайн"></li>
             </ul>
+            </div>
         </section>
+
+
+
 <!--our teeam-->
-        <section class="container tm">
+        <section class="section our-team-sec" >
+            <div class="container our-team">
             <h2 class="team"> Наша команда</h2>
             <ul class="team-list">
                 <li class="player"><img src="image/photo1.jpg"  class="t-photo" alt="Игорь Демяненко">
+                    <div class="team-text">
                     <h3 class="t-name">Игорь Демяненко</h3>
-                    <p class="t-post">Product Designer</p>
+                    <p class="t-post">Product Designer</p></div>
                 </li>
                 <li class="player"><img src="image/photo2.jpg" class="t-photo"  alt="Ольга Репина">
-                    <h3 class="t-name">Ольга Репина</h3>
-                    <p class="t-post">Frontend Developer</p>
+                    <div class="team-text"> <h3 class="t-name">Ольга Репина</h3>
+                    <p class="t-post">Frontend Developer</p></div>
                 </li>
                 <li class="player"><img src="image/photo3.jpg" class="t-photo" alt="Николай Тарасов">
-                    <h3 class="t-name">Николай Тарасов</h3>
-                    <p class="t-post">Marketing</p>
+                    <div class="team-text"> <h3 class="t-name">Николай Тарасов</h3>
+                    <p class="t-post">Marketing</p></div>
                 </li>
                 <li class="player"><img src="image/photo4.jpg" class="t-photo" alt="Михаил Ермаков">
-                    <h3 class="t-name">Михаил Ермаков</h3>
-                    <p class="t-post">Ul Designer</p>
+                    <div class="team-text"> <h3 class="t-name">Михаил Ермаков</h3>
+                    <p class="t-post">Ul Designer</p></div>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
+
+
+
     <footer class="container footer">
         <a href="" class="logo-image-footer" target="blink">Web<span class="logo-im-part3">Studio</span> </a>
         <address>
