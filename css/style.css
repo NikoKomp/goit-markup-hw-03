@@ -33,53 +33,49 @@ a {
   padding-bottom: 94px;
   background-color: var(--sup-head-color);
 }
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .navigation-list {
   border-bottom: 1px solid #ececec;
   display: flex;
 }
-.hero {
+.slogan {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background: var(--brand-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.slogan-sec {
-  padding-bottom: 0px;
-  padding-top: 0px;
+.hero {
+  background-color: var(--brand-color);
 }
-.advantage {
+
+.advantage-section {
   padding-top: 94px;
-}
-.advantage-sec {
-  padding-top: 0px;
   padding-bottom: 0px;
 }
-.do {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.what-we-dooing {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.our-team-section {
   background-color: #f5f4fa;
 }
-.our-team-sec {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.footer {
+
+.footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--brand-color);
 }
-
+.footer {
+  background: var(--brand-color);
+}
 .card {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.cards section {
+  flex-direction: column;
+  justify-content: center;
 }
 .link:hover,
 :focus {
@@ -315,6 +311,7 @@ body {
   color: var(--text-secondary-color);
   font-size: 14px;
   line-height: 1.7;
+  margin-bottom: 9px;
 }
 .link-footer:focus {
   color: var(--button-color);
@@ -322,6 +319,19 @@ body {
 .link-footer:hover {
   color: var(--button-color);
 }
+.link-footer1 {
+  display: inline-block;
+  color: var(--text-secondary-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.link-footer1:focus {
+  color: var(--button-color);
+}
+.link-footer1:hover {
+  color: var(--button-color);
+}
+
 .nav-bar {
   height: 80px;
   background-color: var(--sup-head-color);
